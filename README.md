@@ -5,3 +5,4 @@ The projects intends to develop a 10-bit Potentiometric DAC using opensource too
 A Digital-to-Analog converter(DAC) is a system that converts digital values to analog signals. The output resolution of the DAC depends upon the no. of bits given as input to the system. DACs are essential in interfacing a digital domain to analog domain.
 
 # A Glance at Potentiometric DAC IP
+The introduction to PDAC can be found 
