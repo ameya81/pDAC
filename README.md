@@ -6,4 +6,5 @@ A Digital-to-Analog converter(DAC) is a system that converts digital values to a
 
 # A Glance at Potentiometric DAC IP
 The introduction to PDAC can be found [here](resources/PDAC_introduction.pdf)
+
 The specifications for the IP can be found [here](resources/pdac_ip.pdf)
