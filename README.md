@@ -38,14 +38,14 @@ Device Parameters
 Description of INL and DNL
 
 # Open-Source EDA Tools used
-### 'Ngspice'
+### `Ngspice`
 [Ngspice](http://ngspice.sourceforge.net/) is a open source circuit simulator for electronic circuits. It is a command line tool and does not offer schematic entry.
 
 ###### Steps to Install 
 
 Go to ngspice [installation](http://ngspice.sourceforge.net/download.html)
 
-### 'Magic VLSI'
+### `Magic VLSI`
 [Magic](http://opencircuitdesign.com/magic/) VLSI is a open source VLSI layout tool written at Berkeley by John Ousterhout. 
 
 ###### Steps to Install 
