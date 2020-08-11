@@ -11,6 +11,9 @@ The specifications for the IP can be found [here](resources/pdac_ip.pdf)
 
 # About the Device
 
+Block Diagram
+
+
 Pin Functions
 | Pins | Description |
 | :--- | :--- |
