@@ -12,6 +12,7 @@ The specifications for the IP can be found [here](resources/pdac_ip.pdf)
 # About the Device
 
 Block Diagram
+[DACblockdiagram.jpg](https://github.com/nvshinde/pDAC/blob/master/images/DACblockdiagram.jpg)
 
 
 Pin Functions
