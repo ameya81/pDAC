@@ -13,8 +13,7 @@ The specifications for the IP can be found [here](resources/pdac_ip.pdf)
 
 ###### Block Diagram
 
-![DACblockdiagram.jpg](https://github.com/nvshinde/master/blob/pDAC/images/DACblockdiagram.jpg)
-
+![DACblockdiagram](https://user-images.githubusercontent.com/62995893/89901548-de8c3f80-dc02-11ea-9f6c-9e57c9825c60.jpg)
 
 ###### Pin Functions
 | Pins | Description |
