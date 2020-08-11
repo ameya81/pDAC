@@ -11,12 +11,12 @@ The specifications for the IP can be found [here](resources/pdac_ip.pdf)
 
 # About the Device
 
-Block Diagram
+###### Block Diagram
 
 ![DACblockdiagram.jpg](https://github.com/nvshinde/pDAC/blob/master/images/DACblockdiagram.jpg)
 
 
-Pin Functions
+###### Pin Functions
 | Pins | Description |
 | :--- | :--- |
 | VREFL | Reference Voltage Low |
@@ -29,12 +29,12 @@ Pin Functions
 | VSSA | Analog Ground |
 | OUT | Analog Out |
 
-Device Parameters
+###### Device Parameters
 | Parameter | Description | Min | Typ | Max | Unit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | VDDA | Analog Supply | - | 3.3 | - | V |
 | VDD | Digital Supply | - | 1.8 | - | V |
-| VREFH | Reference Voltage High | - | - | 3.3 | V|
+| VREFH | Reference Voltage High | - | - | 3.3 | V |
 | VREFL | Reference Voltage Low | 0 | - | - | V |
 | Resolution | - | - | 10 | - | Bit |
 | INL | Integral Non Linearity | - | - | - | LSB |
@@ -57,7 +57,21 @@ Go to ngspice [installation](http://ngspice.sourceforge.net/download.html)
 
 Go to Magic [installation](http://opencircuitdesign.com/magic/)
 
+# Steps to clone the IP into LINUX 
+
+`sudo apt install -y git`
+`git clone https://github.com/pDAC`
+``
+
 # Pre-layout Simulations
 
+The .cir files and the osu018nm tech files are available at [prelayout](https://github.com/nvshinde/pDAC/tree/master/prelayout)
+
+
+
+# Post-layout Simulations
+
 # Future Work
+
+To be added after completion of the project
 Here goes the future work
