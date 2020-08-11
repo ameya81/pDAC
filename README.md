@@ -13,7 +13,7 @@ The specifications for the IP can be found [here](resources/pdac_ip.pdf)
 
 ###### Block Diagram
 
-![DACblockdiagram.jpg](https://github.com/nvshinde/pDAC/blob/master/images/DACblockdiagram.jpg)
+![](https://github.com/nvshinde/pDAC/images/DACblockdiagram.jpg)
 
 
 ###### Pin Functions
@@ -59,15 +59,29 @@ Go to Magic [installation](http://opencircuitdesign.com/magic/)
 
 # Steps to clone the IP into LINUX 
 
+Clonig a repository creates a local clone into the user's system. The files in the repository can be accessed locally. To clone follow the following steps:
+
+
 `sudo apt install -y git`
-`git clone https://github.com/pDAC`
-``
+
+`git clone https://github.com/nvshinde/pDAC.git`
+
 
 # Pre-layout Simulations
 
-The .cir files and the osu018nm tech files are available at [prelayout](https://github.com/nvshinde/pDAC/tree/master/prelayout)
+The .cir files and the osu018nm tech files are available at [prelayout](https://github.com/nvshinde/pDAC/tree/master/prelayout).
+Change the working directory to the directory having the IP. 
 
+Follow the steps to run the prelayout simulations in ngspice. All the commands should be executed in terminal.
 
+1. Change the directory to the prelayout directory location in the cloned repository `cd <repository location>`
+
+2. Run ngspice by typing the following `ngspice` 
+
+3. To simulate, run the netlist file `source <filename.cir>`
+
+###### V(Out) vs Digital Code graph
+![DACoutput.jpg]()
 
 # Post-layout Simulations
 
