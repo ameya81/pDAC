@@ -39,7 +39,9 @@ The specifications for the IP can be found [here](resources/pdac_ip.pdf)
 | INL | Integral Non Linearity | - | - | - | LSB |
 | DNL | Differntial Non Linearity | - | - | - | LSB |
 
-Description of INL and DNL
+Intergral Non-linearity(INL): INL is the deviation of the input-output characteristic from the ideal transfer characteristic. It is the deviation form the line connecting zero voltage and full scale voltage. The INL for the IP is shown below and can be found [here](https://github.com/nvshinde/pDAC/tree/master/prelayout/inl.ods)
+
+Differential Non-Linearity(DNL): DNL is the deviation between two adjacent output voltage levels that a DAC outputs. It is the maximum deviation of the output steps from the ideal output step value. The DNL for the IP is shown below and can be found [here](https://github.com/nvshinde/pDAC/tree/master/prelayout/dnl.ods)
 
 # Open-Source EDA Tools used
 ### `Ngspice`
@@ -79,8 +81,21 @@ Follow the steps to run the prelayout simulations in ngspice. All the commands s
 
 3. To simulate, run the netlist file `source <filename.cir>`
 
-###### V(Out) vs Digital Code graph
+###### V(Out) vs time graph
+
 ![DACoutput.jpg]()
+
+###### V(Out) vs Digital code graph
+
+![DACcodeoutput.jpg]()
+
+###### INL Graph
+
+![INLgraph.jpg]()
+
+###### DNL Graph
+
+![DNLgraph.jpg]()
 
 # Post-layout Simulations
 
