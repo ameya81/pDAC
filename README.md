@@ -91,11 +91,11 @@ Follow the steps to run the prelayout simulations in ngspice. All the commands s
 
 ###### INL Graph
 
-![INLgraph.jpg]()
+![inlgraph](https://user-images.githubusercontent.com/62995893/89910878-63c92180-dc0e-11ea-9e1c-444df47e86bf.jpg)
 
 ###### DNL Graph
 
-![DNLgraph.jpg]()
+![dnlgraph](https://user-images.githubusercontent.com/62995893/89910884-662b7b80-dc0e-11ea-9f79-93f9d995b0a6.jpg)
 
 # Post-layout Simulations
 
