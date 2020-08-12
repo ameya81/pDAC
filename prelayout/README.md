@@ -4,7 +4,7 @@ At the core of the ciruit is a simple switching circuit which, depending on the 
 
 #### 1. Switching Circuit is created two select one of the two reference voltages.
 
-Here two inverters are created using transistors M6,M2 and M8,M4. The input is provided using label `d` in 1.8V domain and the inverted output is obtained from `d_inv` in 3.3V domain. The `d_inv` output is given as a input to the inverter(M8, M4) which bumps the output to 3.3V domain from 1.8V `d`. Thus `d_inv` is inverted to obtain `d` in 3.3V domain. These two signals control 2 transmission gates M1,M7 and M3,M5 to select one of the input voltage from `in_1` and `in_2`. The output is obtained at `Vout`
+Here two inverters are created using transistors (M6,M2) and (M8,M4). The input is provided using label *d* in 1.8V domain and the inverted output is obtained from *d_inv* in 3.3V domain. The *d_inv* output is given as a input to the inverter(M8, M4) which bumps the output to 3.3V domain from 1.8V *d*. Thus *d_inv* is inverted to obtain *d* in 3.3V domain. These two signals control 2 transmission gates (M1,M7) and (M3,M5) to select one of the input voltage from *in_1* and *in_2*. The output is obtained at *Vout*.
 
 ![switch](https://user-images.githubusercontent.com/62995893/89989268-59eeff00-dc9e-11ea-9be0-05877ce28a05.jpg)
 
