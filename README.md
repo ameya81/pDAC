@@ -1,3 +1,5 @@
+*Note the project is understandby*
+
 # 10-Bit Potentiometric Digital-to-Analog Converter 
 The projects intends to develop a 10-bit Potentiometric DAC using opensource tools like ngspice, magic to achieve specifications provided.
 
