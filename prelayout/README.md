@@ -2,7 +2,7 @@
 
 At the core of the ciruit is a simple switching circuit which, depending on the input bit provided selects one of the two voltage references. Using this switching circuit a 2-Bit DAC is created. The final circuit is built using many subcircuits in a hierarchical manner as:
 
-#### 1. Switching Circuit is created two select one of the two reference voltages.
+#### 1. Switching Circuit is created to select one of the two reference voltages.
 
 Here two inverters are created using transistors (M6,M2) and (M8,M4). The input is provided using label *d* in 1.8V domain and the inverted output is obtained from *d_inv* in 3.3V domain. The *d_inv* output is given as a input to the inverter(M8, M4) which bumps the output to 3.3V domain from 1.8V *d*. Thus *d_inv* is inverted to obtain *d* in 3.3V domain. These two signals control 2 transmission gates (M1,M7) and (M3,M5) to select one of the input voltage from *in_1* and *in_2*. The output is obtained at *Vout*.
 
