@@ -27,3 +27,5 @@ The points from 3 to 5 are shown in this block diagram
 ![8bitblock](https://user-images.githubusercontent.com/62995893/89987035-016a3280-dc9b-11ea-861d-b71c6f960476.png)
 
 ![10bitblock](https://user-images.githubusercontent.com/62995893/89987048-04652300-dc9b-11ea-82da-4bd60157a814.png)
+
+![10bitDAC](https://user-images.githubusercontent.com/62995893/89992524-00d59a00-dca3-11ea-89ec-94b71ea70818.jpg)
