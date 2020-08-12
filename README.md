@@ -99,10 +99,11 @@ Follow the steps to run the prelayout simulations in ngspice. All the commands s
 
 # Post-layout Simulations
 
+To be added after completion of postlayout simulations
+
 # Future Work
 
 To be added after completion of the project
-Here goes the future work
 
 # Contact Information
 
