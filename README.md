@@ -39,9 +39,9 @@ The specifications for the IP can be found [here](resources/pdac_ip.pdf)
 | INL | Integral Non Linearity | - | - | - | LSB |
 | DNL | Differntial Non Linearity | - | - | - | LSB |
 
-Intergral Non-linearity(INL): INL is the deviation of the input-output characteristic from the ideal transfer characteristic. It is the deviation form the line connecting zero voltage and full scale voltage. The INL for the IP is shown below and can be found [here](https://github.com/nvshinde/pDAC/tree/master/prelayout/inl.ods)
+Intergral Non-linearity(INL): INL is the deviation of the input-output characteristic from the ideal transfer characteristic. It is the deviation form the line connecting zero voltage and full scale voltage. The INL for the IP is shown below and can be found [here](https://github.com/nvshinde/pDAC/tree/master/prelayout/linearity.ods)
 
-Differential Non-Linearity(DNL): DNL is the deviation between two adjacent output voltage levels that a DAC outputs. It is the maximum deviation of the output steps from the ideal output step value. The DNL for the IP is shown below and can be found [here](https://github.com/nvshinde/pDAC/tree/master/prelayout/dnl.ods)
+Differential Non-Linearity(DNL): DNL is the deviation between two adjacent output voltage levels that a DAC outputs. It is the maximum deviation of the output steps from the ideal output step value. The DNL for the IP is shown below and can be found [here](https://github.com/nvshinde/pDAC/tree/master/prelayout/linearity.ods)
 
 # Open-Source EDA Tools used
 ### `Ngspice`
@@ -87,15 +87,15 @@ Follow the steps to run the prelayout simulations in ngspice. All the commands s
 
 ###### V(Out) vs Digital code graph
 
-![DACcodeoutput.jpg]()
+![DACcodeoutput](https://user-images.githubusercontent.com/62995893/89973670-898e0f00-dc7e-11ea-944c-c92932b81c96.jpg)
 
 ###### INL Graph
 
-![inlgraph](https://user-images.githubusercontent.com/62995893/89911155-bacef680-dc0e-11ea-8d16-d0454c67b792.jpg)
+![inlgraph](https://user-images.githubusercontent.com/62995893/89973985-70399280-dc7f-11ea-89d7-38a8c52c77a7.jpg)
 
 ###### DNL Graph
 
-![dnlgraph](https://user-images.githubusercontent.com/62995893/89911166-bc98ba00-dc0e-11ea-8efa-0a4180107ec1.jpg)
+![dnlgraph](https://user-images.githubusercontent.com/62995893/89973982-6d3ea200-dc7f-11ea-83e7-28cd5f5ae088.jpg)
 
 # Post-layout Simulations
 
