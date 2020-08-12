@@ -39,9 +39,9 @@ The specifications for the IP can be found [here](resources/pdac_ip.pdf)
 | INL | Integral Non Linearity | - | - | - | LSB |
 | DNL | Differntial Non Linearity | - | - | - | LSB |
 
-Intergral Non-linearity(INL): INL is the deviation of the input-output characteristic from the ideal transfer characteristic. It is the deviation form the line connecting zero voltage and full scale voltage. The INL for the IP is shown below and can be found [here](https://github.com/nvshinde/pDAC/tree/master/prelayout/linearity.ods)
+Intergral Non-linearity(INL): INL is the deviation of the input-output characteristic from the ideal transfer characteristic. It is the deviation form the line connecting zero voltage and full scale voltage. The INL for the IP is shown below and can be found [here](https://github.com/nvshinde/pDAC/tree/master/prelayout) in linearity.ods spreadsheet.
 
-Differential Non-Linearity(DNL): DNL is the deviation between two adjacent output voltage levels that a DAC outputs. It is the maximum deviation of the output steps from the ideal output step value. The DNL for the IP is shown below and can be found [here](https://github.com/nvshinde/pDAC/tree/master/prelayout/linearity.ods)
+Differential Non-Linearity(DNL): DNL is the deviation between two adjacent output voltage levels that a DAC outputs. It is the maximum deviation of the output steps from the ideal output step value. The DNL for the IP is shown below and can be found [here](https://github.com/nvshinde/pDAC/tree/master/prelayout) in in linearity.ods spreadsheet.
 
 # Open-Source EDA Tools used
 ### `Ngspice`
