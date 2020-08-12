@@ -83,7 +83,8 @@ Follow the steps to run the prelayout simulations in ngspice. All the commands s
 
 ###### V(Out) vs time graph
 
-![DACoutput.jpg]()
+![dacop](https://user-images.githubusercontent.com/62995893/90005104-5f574400-dcb4-11ea-86b8-5d5da85ccfeb.jpg)
+
 
 ###### V(Out) vs Digital code graph
 
