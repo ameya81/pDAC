@@ -103,3 +103,10 @@ Follow the steps to run the prelayout simulations in ngspice. All the commands s
 
 To be added after completion of the project
 Here goes the future work
+
+# Contact Information
+
+Nikhil Shinde, B.E., KJSIEIT, Mumbai, shinde.nv@somaiya.edu
+Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+
+Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at
